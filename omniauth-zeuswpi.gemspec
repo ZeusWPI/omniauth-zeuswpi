@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
   gem.summary       = %(A Zeus WPI strategy for OmniAuth 1.x)
   gem.description   = %(A Zeus WPI strategy for OmniAuth 1.x. This allows you to login to Zauth with your ruby app.)
-  gem.authors       = ['Tom Naessens, Zeus WPI']
+  gem.authors       = ['Tom Naessens', 'Zeus WPI']
   gem.email         = ['']
   gem.homepage      = 'https://github.com/ZeusWPI/omniauth-zeuswpi'
 
