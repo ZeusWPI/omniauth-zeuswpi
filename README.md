@@ -60,7 +60,7 @@ devise :omniauthable, omniauth_providers: %i[zeuswpi]
 5. Add the `from_omniauth` helper to your `User` model:
 ```ruby
 def self.from_omniauth(auth)
-  find_or_create_by!(name: auth.uid) do |user|
+  find_or_create_by!(uid: auth.uid) do |user|
     # additional initialisation here
   end
 end
